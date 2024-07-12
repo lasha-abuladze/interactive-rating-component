@@ -1,0 +1,136 @@
+
+body {
+    height: 100vh;
+    width: 100%;
+
+    background-color: #131518;
+    font-family: Overpass;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rate-form {
+    width: 412px; 
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+
+    padding: 32px;
+    box-sizing: border-box;
+}
+
+
+.star {
+    width: 48px; height: 48px;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    margin-bottom: 7px;
+}
+
+.rate-form p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #969FAD;
+
+    margin-bottom: 24px;
+}
+
+.rate-scors {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 32px;
+}
+
+.rate-btn {
+    width: 51px; height: 51px;
+    border-radius: 100%;
+    border: none;
+    background: none;
+
+    background-color: #262E38;
+    color: #7C8798;
+
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+.rate-btn:hover {
+    background-color: #7C8798;
+    color: #FFFFFF;
+}
+
+.rate-btn:focus {
+    background-color: #FC7614;
+    color: #FFFFFF;
+}
+
+.submit {
+    width: 100%; height: 45px;
+    border-radius: 23px;
+    background: #FC7614;
+
+    border: none;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: #FFFFFF;
+    color: #FC7614;
+}
+
+
+
+@media only screen and (max-width: 610px) {
+    .rate-form {
+        width: 327px; 
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .rate-form p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+
+    .rate-btn {
+        width: 42px; height: 42px;
+
+    }
+
+    .submit {
+        font-size: 14px;
+    }
+}
+

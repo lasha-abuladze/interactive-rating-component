@@ -1,0 +1,72 @@
+
+
+.rate-form2 {
+    width: 412px; 
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+
+    padding: 35px;
+    box-sizing: border-box;
+    
+    text-align: center;
+}
+
+
+.your-rate {
+
+    width: 193px; height: 32px;
+
+    margin: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    background-color: #262E38;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+
+    box-sizing: border-box;
+}
+
+.rate-form2 p {
+
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+
+    color: #969FAD;
+}
+
+.your-rate p {
+    color: #FC7614;
+}
+
+
+
+@media only screen and (max-width: 610px) {
+    .rate-form2 {
+        width: 327px; 
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .rate-form2  p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    
+
+    .rate-btn {
+        width: 42px; height: 42px;
+
+    }
+
+    .submit {
+        font-size: 14px;
+    }
+}
